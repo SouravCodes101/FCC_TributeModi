@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 62.5%;
+    padding: 15px 10px;
+    color: rgb(51, 51, 51);
+}
+
+
+#main {
+    background-color:rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.header #title {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: rgb(51, 51, 51);
+}
+
+.header p {
+   font-size: 0.8rem;
+   color: rgb(73, 73, 73);
+   margin-top: 0;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img-div #image{
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div #img-caption {
+    margin: 15px 0 5px 0;
+    font-size: .8rem;
+}
+
+
+.heading--secondary {
+    text-align: center;
+    margin: 3.5rem 0 .1rem 0;
+    font-size: .7rem;
+}
+
+.list {
+    display:flex;
+    justify-content: center;
+    text-align:justify;
+    max-width: 450px;
+    margin: 0 auto 40px auto;
+}
+
+.list .list--heading {
+    margin-bottom: 0;
+    font-size: .8rem;
+}
+
+.list li {
+    margin-left: 1.5rem;
+}
+
+.list ul {
+    padding-left: 0;
+}
+
+.quote {
+    text-align:justify;
+    max-width: 450px;
+    margin: 0 auto 0 auto;
+}
+
+.quote blockquote {
+    margin: 0;
+}
+
+.quote blockquote p {
+    font-size: .7rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer h2 {
+    font-size: .85rem;
+}
+
+#tribute-link:link,
+#tribute-link:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    background: white;
+    padding: .2rem .3rem;
+}
+
+#tribute-link:hover {
+    color: white;
+    background: black;
+}
